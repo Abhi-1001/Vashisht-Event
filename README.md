@@ -99,6 +99,12 @@ Modify the image path in the `img` tag  by editing the `src` element. Add the pa
 
 ```html
 <img src="D:/my_folder/some_sub_folder/1.png" alt="Original Image">
+<span class="cd-image-label" data-type="original">Original</span>
+
+<div class="cd-resize-img"> <!-- the resizable image on top -->
+    <img src="D:/my_folder/some_sub_folder/out1.png" alt="Modified Image">
+    <span class="cd-image-label" data-type="modified">Modified</span>
+</div>
 ```
 
 You can slide and check the images to see whether both are matching.
