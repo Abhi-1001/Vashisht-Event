@@ -92,3 +92,13 @@ For Example - If your **Id** is **34**, then save your file as `index34.html`.
 ### DO NOT create another file, make all the changes inside the same `index.html` file.
 
 ---
+
+# How to use Image Slider
+
+Modify the image path in the `img` tag  by editing the `src` element. Add the path to both the original image and your modified image in
+
+```html
+<img src="D:/my_folder/some_sub_folder/1.png" alt="Original Image">
+```
+
+You can slide and check the images to see whether both are matching.
