@@ -93,6 +93,24 @@ For Example - If your **Id** is **34**, then save your file as `index34.html`.
 
 ---
 
+# Code for getting the Output Image from `index.html` file
+
+Put all the index.html files into a single folder. In the python file, go to line number 38 and replace the `input_path` variable with path to your folder that has all the `index.html` files
+
+```python
+input_path = "D:/my_folder/subfolder"
+```
+
+For running the python code, open your `cmd` terminal,
+- Run `pip install -r requirements.txt`
+- Then run `python Tester.py`
+
+This will generate all the output images for you, from the `index.html` files.
+
+The output for `index13.html` will be `out13.png`.
+
+---
+
 # How to use Image Slider
 
 Modify the image path in the `img` tag  by editing the `src` element. Add the path to both the original image and your modified image in
